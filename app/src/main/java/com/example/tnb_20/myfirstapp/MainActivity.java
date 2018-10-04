@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         final Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast toast = Toast.makeText(getApplicationContext(), "Hello Enric :)", 10);
+                Toast toast = Toast.makeText(getApplicationContext(),"Hello Enric :)", Toast.LENGTH_SHORT);
                 toast.show();
 
             }
